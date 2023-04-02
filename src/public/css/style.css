@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(34, 34, 34);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.521);
+  display: flex;
+}
+
+.navbar-container {
+  width: 85%;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin: auto 0;
+}
+
+ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.btn-agregar {
+  width: 80px;
+  height: 30px;
+  border: 1px solid rgb(43, 143, 30);
+  color: rgb(43, 143, 30);
+  font-size: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-modificar {
+  width: 80px;
+  height: 30px;
+  border: 1px solid rgb(43, 121, 194);
+  color: rgb(44, 121, 194);
+  font-size: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-borrar {
+  width: 80px;
+  height: 30px;
+  border: 1px solid rgb(143, 30, 30);
+  color: rgb(143, 30, 30);
+  font-size: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mrg {
+  margin-left: 5px;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  background-color: rgb(238, 238, 238);
+  text-align: left;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: rgb(70, 4, 192);
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(228, 228, 228);
+}
+
+.acciones {
+  display: flex;
+}
+
+.form-content {
+  width: 50%;
+  background-color: rgba(36, 36, 36, 0);
+  margin: auto;
+}
+
+.form-header {
+  /* background: rgb(130, 77, 255); */
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.form-productos {
+  padding: 20px 30px;
+}
+
+.form-inp {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre-p, .precio-p, .cantidad-p {
+  width: 100%;
+  height: 30px;
+  background-color: rgba(0, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  border: 1px solid rgb(207, 207, 207);
+  padding-left: 5px;
+  outline: none;
+  margin: auto;
+}
+
+.container-btn {
+  display: flex;
+}
+
+.btn-guardar {
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: rgb(60, 73, 255);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-cancelar {
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: rgb(180, 41, 41);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

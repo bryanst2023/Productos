@@ -1,0 +1,24 @@
+<div class="form-content">
+  <div class="form-header">
+    <h1>Modificar producto</h1>
+  </div>
+  <form action="/actualizar" method="post" class="form-productos">
+    <div class="form-inp">
+      <label for="nombreP">Nombre</label>
+      <input type="text" value="{{producto.id}}" name="id" hidden>
+      <input type="text" id="nombreP" name="nombreP" class="nombre-p" value="{{producto.nombre}}" required>
+    </div>
+    <div class="form-inp">
+      <label for="precioP">Precio</label>
+      <input type="text" id="precioP" name="precioP" class="precio-p" value="{{producto.precio}}" required>
+    </div>
+    <div class="form-inp">
+      <label for="cantidadP">Cantidad</label>
+      <input type="text" id="cantidadP" name="cantidadP" class="cantidad-p" value="{{producto.cantidad}}" required>
+    </div>
+    <div class="container-btn">
+      <button type="submit" class="btn-guardar">Actualizar</button>
+      <a href="/" class="btn-cancelar mrg">Cancelar</a>
+    </div>
+  </form>
+</div>

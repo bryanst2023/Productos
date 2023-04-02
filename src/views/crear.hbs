@@ -1,0 +1,23 @@
+<div class="form-content">
+  <div class="form-header">
+    <h1>Agregar producto</h1>
+  </div>
+  <form action="/salvar" method="post" class="form-productos">
+    <div class="form-inp">
+      <label for="nombreP">Nombre</label>
+      <input type="text" id="nombreP" name="nombreP" class="nombre-p" required>
+    </div>
+    <div class="form-inp">
+      <label for="precioP">Precio</label>
+      <input type="text" id="precioP" name="precioP" class="precio-p" required>
+    </div>
+    <div class="form-inp">
+      <label for="cantidadP">Cantidad</label>
+      <input type="text" id="cantidadP" name="cantidadP" class="cantidad-p" required>
+    </div>
+    <div class="container-btn">
+      <button type="submit" class="btn-guardar">Guardar</button>
+      <a href="/" class="btn-cancelar mrg">Cancelar</a>
+    </div>
+  </form>
+</div>

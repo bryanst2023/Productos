@@ -1,0 +1,26 @@
+<a href="/agregar" class="btn-agregar">Agregar</a>
+
+<table>
+  <thead>
+    <tr>
+      <th>nombre</th>
+      <th>precio</th>
+      <th>cantidad</th>
+      <th>acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each productos}}
+      <tr>
+        <td>{{nombre}}</td>
+        <td>{{precio}}</td>
+        <td>{{cantidad}}</td>
+        <td class="acciones">
+          <a href="/editar/{{id}}" class="btn-modificar">Modificar</a>
+          <a href="/borrar/{{id}}" class="btn-borrar mrg">Borrar</a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
